@@ -1,0 +1,220 @@
+name	category	slug	marker
+Arize	Agent Orchestration	/marketplace/arize-ai	
+Atlan	Agent Orchestration	/marketplace/atlan	
+AWS Agents	Agent Orchestration	/marketplace/aws/aws-agents	
+AWS SageMaker	Agent Orchestration	/marketplace/aws/sagemaker-ai	
+Browserbase Browse	Agent Orchestration	/marketplace/browserbase/browse	
+Composio	Agent Orchestration	/marketplace/composio	
+Context7	Agent Orchestration	/marketplace/upstash	
+Create Plugin	Agent Orchestration	/marketplace/cursor/create-plugin	C
+DataRobot	Agent Orchestration	/marketplace/datarobot	
+Firetiger	Agent Orchestration	/marketplace/firetiger	
+Langfuse	Agent Orchestration	/marketplace/langfuse	
+Opsera	Agent Orchestration	/marketplace/opsera/opsera-devsecops	
+Parallel	Agent Orchestration	/marketplace/parallel	
+Runlayer	Agent Orchestration	/marketplace/runlayer	
+shadcn/ui	Agent Orchestration	/marketplace/shadcn	
+Sourcegraph	Agent Orchestration	/marketplace/sourcegraph	
+Superpowers	Agent Orchestration	/marketplace/superpowers	
+Tabnine	Agent Orchestration	/marketplace/tabnine/tabnine	
+Tabnine Context Engine	Agent Orchestration	/marketplace/tabnine/ctx	
+Docs Canvas	Canvas	/marketplace/cursor/docs-canvas	C
+PR Review Canvas	Canvas	/marketplace/cursor/pr-review-canvas	C
+Intercom	Customer Support	/marketplace/cursor/intercom	C
+Plain	Customer Support	/marketplace/plain	
+Amplitude	Data Analytics	/marketplace/amplitude	
+Antimetal	Data Analytics	/marketplace/antimetal	
+Apify	Data Analytics	/marketplace/apify	
+Astronomer	Data Analytics	/marketplace/astronomer	
+AWS Data Analytics	Data Analytics	/marketplace/aws/aws-data-analytics	
+Azure Cosmos DB	Data Analytics	/marketplace/azure-cosmos-db	
+Braintrust	Data Analytics	/marketplace/braintrust	
+Bright Data	Data Analytics	/marketplace/bright-data	
+ClickHouse	Data Analytics	/marketplace/clickhouse	
+Confidence by Spotify	Data Analytics	/marketplace/spotify	
+Dagster	Data Analytics	/marketplace/dagster	
+dbt Labs	Data Analytics	/marketplace/dbt-labs	
+Elastic	Data Analytics	/marketplace/elastic	
+Exa	Data Analytics	/marketplace/exa	
+Firecrawl	Data Analytics	/marketplace/firecrawl	
+Grafana Cloud	Data Analytics	/marketplace/grafana-labs/grafana-cloud-mcp	
+Grafana Labs	Data Analytics	/marketplace/grafana-labs/grafana-assistant	
+Hex	Data Analytics	/marketplace/hex	
+Hugging Face	Data Analytics	/marketplace/huggingface	
+Mixpanel	Data Analytics	/marketplace/mixpanel	
+Observe by Snowflake	Data Analytics	/marketplace/snowflake/observe	
+Omni	Data Analytics	/marketplace/omni	
+OpenSearch	Data Analytics	/marketplace/opensearch	
+Pendo	Data Analytics	/marketplace/pendo	
+PostHog	Data Analytics	/marketplace/posthog	
+Postman	Data Analytics	/marketplace/postman	
+Prisma	Data Analytics	/marketplace/prisma	
+Snowflake	Data Analytics	/marketplace/snowflake/snowflake-cursor-plugin	
+ThoughtSpot	Data Analytics	/marketplace/thoughtspot	
+Gmail	Featured	/marketplace/cursor/gmail	C
+Google Calendar	Featured	/marketplace/cursor/google-calendar	C
+Google Drive	Featured	/marketplace/cursor/google-drive	C
+Granola	Featured	/marketplace/granola	
+Notion	Featured	/marketplace/notion	
+Slack	Featured	/marketplace/slack	
+Docusign	Finance And Legal	/marketplace/cursor/docusign	C
+X	Inbox And Collaboration	/marketplace/cursor/x	C
+Amazon Location Service	Infrastructure	/marketplace/aws/amazon-location-service	
+Appwrite	Infrastructure	/marketplace/appwrite	
+AWS Amplify	Infrastructure	/marketplace/aws/aws-amplify	
+AWS Core	Infrastructure	/marketplace/aws/aws-core	
+AWS Databases	Infrastructure	/marketplace/aws/databases-on-aws	
+AWS Deployments	Infrastructure	/marketplace/aws/deploy-on-aws	
+AWS Serverless	Infrastructure	/marketplace/aws/aws-serverless	
+Azure	Infrastructure	/marketplace/azure	
+Browserbase Functions	Infrastructure	/marketplace/browserbase/functions	
+Browserstack	Infrastructure	/marketplace/browserstack	
+Clerk	Infrastructure	/marketplace/clerk	
+Cloudflare	Infrastructure	/marketplace/cloudflare	
+CockroachDB	Infrastructure	/marketplace/cockroachdb	
+Convex	Infrastructure	/marketplace/convex	
+Coralogix	Infrastructure	/marketplace/coralogix-ltd	
+Datadog	Infrastructure	/marketplace/datadog	
+Encore	Infrastructure	/marketplace/encore	
+Firebase	Infrastructure	/marketplace/firebase	
+JFrog	Infrastructure	/marketplace/jfrog	
+MongoDB	Infrastructure	/marketplace/mongodb/mongodb	
+Monk.io	Infrastructure	/marketplace/monk-io	
+Neon Postgres	Infrastructure	/marketplace/neon	
+Netlify	Infrastructure	/marketplace/netlify	
+ParadeDB	Infrastructure	/marketplace/parade-db	
+Pinecone	Infrastructure	/marketplace/pinecone	
+PlanetScale	Infrastructure	/marketplace/planetscale	
+Railway	Infrastructure	/marketplace/railway	
+Redis	Infrastructure	/marketplace/redis	
+Render	Infrastructure	/marketplace/render	
+ScyllaDB	Infrastructure	/marketplace/scylla-db	
+Sentry	Infrastructure	/marketplace/sentry	
+Supabase	Infrastructure	/marketplace/supabase	
+Temporal	Infrastructure	/marketplace/temporal	
+turbopuffer	Infrastructure	/marketplace/turbopuffer	
+Twilio	Infrastructure	/marketplace/twilio	
+Vantage	Infrastructure	/marketplace/vantage	
+Vercel	Infrastructure	/marketplace/vercel	
+WorkOS	Infrastructure	/marketplace/workos	
+Zscaler	Infrastructure	/marketplace/zscaler	
+1Password	MCP	/marketplace/1password	
+Agent Compatibility	MCP	/marketplace/cursor/agent-compatibility	C
+Aikido	MCP	/marketplace/aikido	
+AMD	MCP	/marketplace/amd	
+Ashby	MCP	/marketplace/cursor/ashby	C
+AtScale	MCP	/marketplace/atscale	
+Auth0	MCP	/marketplace/auth0	
+Browser Use	MCP	/marketplace/browser-use	
+Buildkite	MCP	/marketplace/buildkite	
+Chainguard	MCP	/marketplace/chainguard	
+Checkmarx	MCP	/marketplace/checkmarx	
+Circleback	MCP	/marketplace/cursor/circleback	C
+Cisco ThousandEyes	MCP	/marketplace/cisco-thousand-eyes	
+CLI for Agents	MCP	/marketplace/cursor/cli-for-agent	C
+Cloudinary	MCP	/marketplace/cloudinary	
+CodeRabbit	MCP	/marketplace/coderabbit	
+Continual Learning	MCP	/marketplace/cursor/continual-learning	C
+Corridor	MCP	/marketplace/corridor	
+Cursor SDK	MCP	/marketplace/cursor/cursor-sdk	C
+Cursor Team Kit	MCP	/marketplace/cursor/cursor-team-kit	C
+D&B Commercial Graph	MCP	/marketplace/dun-bradstreet/dnb-commercial-graph	
+D&B Risk Analytics	MCP	/marketplace/dun-bradstreet/dnb-risk-analytics	
+Databricks	MCP	/marketplace/databricks	
+Endor Labs Agent Kit	MCP	/marketplace/endorlabs	
+eToro	MCP	/marketplace/etoro	
+Falconer	MCP	/marketplace/falconer	
+Forge	MCP	/marketplace/opsera/forge	
+GitHits	MCP	/marketplace/githits	
+GitHub	MCP	/marketplace/cursor/github	C
+here.now	MCP	/marketplace/here-now	
+HeyGen	MCP	/marketplace/heygen	
+Higgsfield	MCP	/marketplace/higgsfield	
+Lovable	MCP	/marketplace/lovable	
+Lucid	MCP	/marketplace/lucid-software	
+Magic Patterns	MCP	/marketplace/magic-patterns	
+Mainframe	MCP	/marketplace/mainframe	
+Mem0	MCP	/marketplace/mem0	
+Meta Reality Labs	MCP	/marketplace/meta-reality-labs	
+Meticulous	MCP	/marketplace/meticulous	
+Microsoft Dataverse	MCP	/marketplace/microsoft-dataverse	
+Modern Web Guidance	MCP	/marketplace/google-chrome	
+MongoDB Atlas	MCP	/marketplace/mongodb/mongodb-atlas	
+Navan	MCP	/marketplace/cursor/navan	C
+Nvidia Skills	MCP	/marketplace/nvidia	
+OneSignal	MCP	/marketplace/onesignal	
+Orchestrate	MCP	/marketplace/cursor/orchestrate	C
+Port	MCP	/marketplace/port	
+pstack	MCP	/marketplace/cursor/pstack	C
+QuiverAI	MCP	/marketplace/quiverai	
+Raisely	MCP	/marketplace/raisely	
+React Doctor	MCP	/marketplace/react-doctor	
+Remotion	MCP	/marketplace/remotion	
+resolve-ai	MCP	/marketplace/resolve-ai/resolve-ai	
+resolve-ai-admin	MCP	/marketplace/resolve-ai/resolve-ai-admin	
+Revyl	MCP	/marketplace/revyl	
+Roboflow	MCP	/marketplace/roboflow	
+Scandit	MCP	/marketplace/scandit	
+Semgrep	MCP	/marketplace/semgrep	
+Sinch	MCP	/marketplace/sinch	
+Snyk	MCP	/marketplace/snyk/snyk-secure-development	
+Snyk API & Web	MCP	/marketplace/snyk/snyk-api-web	
+SonarQube	MCP	/marketplace/sonarsource	
+Sonatype	MCP	/marketplace/sonatype	
+Subtext	MCP	/marketplace/subtext	
+Tavily	MCP	/marketplace/tavily	
+Thermos	MCP	/marketplace/cursor/thermos	C
+1inch	Payments	/marketplace/1inch	
+Airwallex	Payments	/marketplace/airwallex	
+Chargebee	Payments	/marketplace/chargebee	
+Circle	Payments	/marketplace/circle	
+Kraken	Payments	/marketplace/kraken	
+Phantom	Payments	/marketplace/phantom	
+Ramp	Payments	/marketplace/ramp	
+RevenueCat	Payments	/marketplace/revenuecat/revenuecat	
+RevenueCat Play Billing	Payments	/marketplace/revenuecat/revenuecat-play-billing	
+Revolut X	Payments	/marketplace/revolut	
+Shopify	Payments	/marketplace/shopify	
+Stripe	Payments	/marketplace/stripe/stripe	
+Stripe Link	Payments	/marketplace/stripe/link	
+Whop	Payments	/marketplace/whop	
+Adobe Developer App Builder	Productivity	/marketplace/adobe	
+AgentMail	Productivity	/marketplace/agentmail	
+Airtable	Productivity	/marketplace/airtable	
+Asana	Productivity	/marketplace/asana	
+Atlassian	Productivity	/marketplace/atlassian/atlassian	
+Atlassian Forge	Productivity	/marketplace/atlassian/forge-skills	
+Atlassian Teamwork Graph	Productivity	/marketplace/atlassian/atlassian-twg-cli	
+Box	Productivity	/marketplace/box	
+Canva	Productivity	/marketplace/canva	
+ChatPRD	Productivity	/marketplace/chatprd	
+ClickUp	Productivity	/marketplace/clickup	
+GitBook	Productivity	/marketplace/gitbook	
+GitLab	Productivity	/marketplace/gitlab	
+Glean	Productivity	/marketplace/glean	
+GSAP	Productivity	/marketplace/gsap	
+Harness	Productivity	/marketplace/harness	
+IcePanel	Productivity	/marketplace/icepanel	
+LaunchDarkly	Productivity	/marketplace/launchdarkly	
+Linear	Productivity	/marketplace/linear	
+MagicPath	Productivity	/marketplace/magicpath	
+Mintlify	Productivity	/marketplace/mintlify	
+Miro	Productivity	/marketplace/miro	
+Monday.com	Productivity	/marketplace/monday	
+Paper	Productivity	/marketplace/paper	
+Playwright	Productivity	/marketplace/cursor/playwright	C
+Resend	Productivity	/marketplace/resend	
+Sanity	Productivity	/marketplace/sanity	
+Svelte	Productivity	/marketplace/svelte	
+TierZero	Productivity	/marketplace/tierzero	
+tldraw	Productivity	/marketplace/tldraw	
+Webflow	Productivity	/marketplace/webflow	
+Wix	Productivity	/marketplace/wix	
+Zapier	Productivity	/marketplace/zapier	
+Apollo.io	Sales	/marketplace/apollo-io	
+Clay	Sales	/marketplace/cursor/clay	C
+Gong	Sales	/marketplace/cursor/gong	C
+HubSpot	Sales	/marketplace/cursor/hubspot	C
+Salesforce	Sales	/marketplace/cursor/salesforce	C
+ZoomInfo	Sales	/marketplace/zoominfo	
+Zoom	Scheduling	/marketplace/cursor/zoom	C
