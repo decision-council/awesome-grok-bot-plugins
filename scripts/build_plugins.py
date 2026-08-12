@@ -21,6 +21,7 @@ MARKET = (
     / "cursor-marketplace.md"
 )
 OUT = REPO / "data" / "plugins.json"
+VENDOR_URLS = REPO / "data" / "vendor-urls.json"
 TSV = (
     REPO
     / "docs"
@@ -579,6 +580,8 @@ def marker_for(slug: str) -> str | None:
 def main() -> None:
     roster = parse_roster(ROSTER.read_text(encoding="utf-8"))
     market = parse_market(MARKET.read_text(encoding="utf-8"))
+    vendor_raw = json.loads(VENDOR_URLS.read_text(encoding="utf-8"))
+    vendor_map = {k: v for k, v in vendor_raw.items() if not k.startswith("_")}
 
     categories: list[str] = []
     seen_cat: set[str] = set()
@@ -588,7 +591,7 @@ def main() -> None:
             seen_cat.add(cat)
 
     plugins = []
-    tsv_rows = ["name\tcategory\tslug\tmarker"]
+    tsv_rows = ["name\tcategory\tslug\turl\tmarker"]
     missing = []
     for name, cat in roster:
         hit = market.get(name.lower())
@@ -604,7 +607,8 @@ def main() -> None:
         uc = use_case_for(name, desc)
         if not uc.endswith((".", "!", "。")):
             uc += "."
-        url = "https://cursor.com" + slug
+        market_url = "https://cursor.com" + slug
+        url = vendor_map.get(name, market_url)
         mk = marker_for(slug)
         plugins.append(
             {
@@ -617,7 +621,7 @@ def main() -> None:
                 "slug": slug.removeprefix("/marketplace/"),
             }
         )
-        tsv_rows.append(f"{name}\t{cat}\t{slug}\t{mk or ''}")
+        tsv_rows.append(f"{name}\t{cat}\t{slug}\t{url}\t{mk or ''}")
 
     if missing:
         raise SystemExit(f"unresolved plugins: {missing}")

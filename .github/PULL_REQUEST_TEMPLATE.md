@@ -14,7 +14,7 @@ Entries live in `data/plugins.json` -- the README is generated from it (see CONT
 ```json
 {
   "name": "Name",
-  "url": "https://cursor.com/marketplace/example",
+  "url": "https://example.com",
   "marker": null,
   "category": "Existing Category",
   "description": "One-sentence description ending with a period.",
@@ -30,7 +30,7 @@ Then run `python3 scripts/generate_readme.py` and commit the JSON and README tog
 - [ ] Entry added to `data/plugins.json` with the correct existing catalog category
 - [ ] Description is one sentence, no marketing language, ends with a period
 - [ ] `use_case`: one sentence, 1-3 concrete comma-separated scenarios, not a restatement of the description
-- [ ] Link uses HTTPS and points to the Cursor Marketplace listing
+- [ ] Link uses HTTPS and points to the vendor product page (marketplace only if none exists)
 - [ ] `python3 scripts/generate_readme.py` run, `README.md` committed with the data
 - [ ] `awesome-lint` passes locally (`npx awesome-lint@2.3.0`)
 

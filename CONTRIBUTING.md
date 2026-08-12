@@ -65,13 +65,15 @@ Follow the Grok Bot in-app display name where it differs from the web listing. T
 
 ### Verification
 
-Every listed entry needs a working Cursor Marketplace URL whose page content matches the plugin name. A vendor homepage returning 200 is not the listing. If a marketplace page can't be confirmed, hold the entry rather than shipping a guessed vendor link.
+Link the vendor's public product page when one exists. Confirm the page is that product, not a generic homepage that happens to 200. Use the Cursor Marketplace listing only when the plugin has no public company or product site (Cursor first-party tools, or a vendor we cannot identify). Never guess a URL.
+
+Marketplace slugs still live in `data/plugins.json` (`slug`) and `data/vendor-urls.json` is the vendor-URL map. Rebuild with `python3 scripts/build_plugins.py` after editing either file.
 
 ### Held entries
 
-Catalog entries whose marketplace URL cannot be confirmed are published in the README's **Held for Verification** section -- name, catalog description, and the reason held, with no link -- rather than being listed with a guessed or generic link, and rather than being silently omitted. Presence in the Grok Bot in-app catalog is still required.
+Catalog entries whose vendor URL cannot be confirmed, and that also lack a marketplace listing, are published in **Held for Verification** -- name, catalog description, and the reason held, with no link. Presence in the Grok Bot in-app catalog is still required.
 
-If you are the vendor of a held entry, or you know its marketplace slug, open an issue or PR with the URL. The entry graduates to its category section once the marketplace page confirms the product.
+If you are the vendor of a held entry, or you know the canonical product page, open an issue or PR with the URL. The entry graduates once the page confirms the product.
 
 ### Plugin Snap Stacks
 

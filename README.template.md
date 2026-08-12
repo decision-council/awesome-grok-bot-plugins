@@ -60,7 +60,7 @@ Show a Bot a workflow once and it can save that path as a **routine** and re-run
 
 ## Held for Verification
 
-Every link above is the plugin's public Cursor Marketplace listing. A URL ships only when that listing confirms the catalog name. Entries that appear in the Grok Bot in-app catalog but have no confirmed marketplace page are listed here without a link rather than with a guessed vendor homepage.
+Every listed link is the vendor's public product page when one exists. Cursor Marketplace URLs appear only when there is no public company or product site. Entries that appear in the Grok Bot in-app catalog but have no confirmed URL are listed here without a link rather than with a guessed one.
 
 {{HELD_TABLE}}
 

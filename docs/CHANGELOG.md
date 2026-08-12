@@ -2,6 +2,10 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries.
 
+## 2026-08-12 — vendor URLs
+
+Listed links now point at the vendor product page. Cursor Marketplace URLs remain only for plugins with no public company/product site (Cursor first-party tools plus Mainframe). Map: `data/vendor-urls.json`.
+
 ## 2026-08-12 — intro
 
 Added a "What is Grok Bot" section to the README: cloud-computer teammate model, shared-computer / routine / eligibility facts from the official docs, and a four-surface mental model (Grok vs Connectors vs Build vs Bot). Catalog counts unchanged.
