@@ -22,6 +22,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > **The overnight sales outbound Bot** — Apollo.io · Clay · Gong · HubSpot · running on **Grok Bot**
 >
 > One Bot, four plugins: research and score accounts in Apollo, enrich the shortlist in Clay, pull the last-call brief from Gong, then write the CRM note and next step in HubSpot before asking for approval on the outbound draft. Composed from the day-0 Grok Bot catalog, not yet field-tested — if you run it on a live book, send a Field Report (see CONTRIBUTING).
+>
+> Disclaimer: This is a free, public, community-maintained list. Not affiliated with, endorsed by, or sponsored by Grok, xAI Corp, SpaceX, or any Musk-affiliated entity. "Grok" and related marks are the property of xAI Corp. Each connector is the property of its respective owner. No fees, no paid placement, no commercial relationship with any vendor listed.
 
 ---
 
